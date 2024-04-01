@@ -64,6 +64,13 @@ public class conta{
     public static void main(String[] args) {
         
         // Criando instâncias das contas
+
+        Conta conta1 = new Conta();
+        Conta conta2 = conta1;
+
+        Conta conta01 = new Conta();
+        Conta conta02 = new Conta();
+
         Conta contaIcaro = new Conta();
         Conta contaMaria = new Conta();
         
@@ -92,7 +99,21 @@ public class conta{
         contaMaria.DonoConta = clienteMaria;
         contaMaria.SaldoConta = 3500;
         contaMaria.LimiteConta = 45000.0;
-        
+
+            if(conta1 == conta2){
+                    System.out.println("Sao iguais!")
+                
+                }else{
+                    System.out.println("Sao diferentes!");    
+                }
+
+            if(conta01 == conta02){
+                    System.out.println("Sao iguais!");
+            
+                }else{
+                    System.out.println("Sao diferentes!");
+                }
+
         // Imprimindo detalhes das contas
         System.out.println(contaIcaro.DonoConta);
         System.out.println(contaMaria.DonoConta);
