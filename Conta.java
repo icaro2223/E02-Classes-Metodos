@@ -84,12 +84,12 @@ public class conta{
         
         // Definindo os detalhes das contas
         contaIcaro.NumConta = 15;
-        contaIcaro.DonoConta = "Icaro";
+        contaIcaro.DonoConta = clienteIcaro;
         contaIcaro.SaldoConta = 15000;
         contaIcaro.LimiteConta = 25000.0;
         
         contaMaria.NumConta = 25;
-        contaMaria.DonoConta = "Maria";
+        contaMaria.DonoConta = clienteMaria;
         contaMaria.SaldoConta = 3500;
         contaMaria.LimiteConta = 45000.0;
         
